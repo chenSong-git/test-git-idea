@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 public class User implements Serializable {
 
-    private String name;
-    private int age;
+    private String name;//用户名
+    private int age;//年纪
 
     public String getName() {
         return name;
